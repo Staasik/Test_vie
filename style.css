@@ -33,6 +33,12 @@ body {
     gap:20px;
 }
 
+.buttons-column {
+    display: flex;
+    gap:20px;
+    flex-direction: column;
+}
+
 .descriptions {
     display: flex;
     align-items: center;
@@ -56,13 +62,19 @@ li {
     margin-bottom: 10px;
 }
 
-button {
+.button {
     width: 170px;
     height: 30px;
     font-size: 16px;
     border: 0;
     background-color: #FFDAB9;
     cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:#000000;
 }
 
 .color {
